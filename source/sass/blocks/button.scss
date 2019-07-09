@@ -1,0 +1,23 @@
+.button {
+  display: inline-block;
+  box-sizing: border-box;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: normal;
+  vertical-align: top;
+  color: #ffffff;
+
+  background-color: transparent;
+
+  border: 2px solid #5489c3;
+  border-radius: 50px;
+}
+
+.button--filled {
+  background-color: #e70067;
+  color: #ffffff;
+  border-color: #e70067;
+}
+
+
