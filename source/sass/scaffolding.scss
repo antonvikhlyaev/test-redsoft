@@ -1,0 +1,79 @@
+@font-face {
+  font-style: normal;
+  font-weight: 300;
+  font-family: "Cera Round Pro";
+
+  src: url("../fonts/CeraRoundPro-Light.woff2") format("woff2"),
+  url("../fonts/CeraRoundPro-Light.woff") format("woff");
+}
+
+@font-face {
+  font-style: normal;
+  font-weight: 400;
+  font-family: "Cera Round Pro";
+
+  src: url("../fonts/CeraRoundPro-Regular.woff2") format("woff2"),
+  url("../fonts/CeraRoundPro-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-style: normal;
+  font-weight: 500;
+  font-family: "Cera Round Pro";
+
+  src: url("../fonts/CeraRoundPro-Medium.woff2") format("woff2"),
+  url("../fonts/CeraRoundPro-Medium.woff") format("woff");
+}
+
+@font-face {
+  font-style: normal;
+  font-weight: 700;
+  font-family: "Cera Round Pro";
+
+  src: url("../fonts/CeraRoundPro-Bold.woff2") format("woff2"),
+  url("../fonts/CeraRoundPro-Bold.woff") format("woff");
+}
+
+body {
+  min-width: 1200px;
+  margin: 0;
+  padding: 0;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "Cera Round Pro", "Arial", sans-serif;
+  color: $default_text_color;
+
+  background-color: #ffffff;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.visually-hidden {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+
+  border: 0;
+
+  clip: rect(0 0 0 0);
+}
+
+.container {
+  width: 1160px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
