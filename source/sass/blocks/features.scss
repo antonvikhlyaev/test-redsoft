@@ -1,0 +1,90 @@
+.features {
+  padding-top: 152px;
+  padding-bottom: 94px;
+  text-align: center;
+
+  background-image: url(../img/features__bg.png);
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.features__title {
+  margin: 0;
+  margin-bottom: 48px;
+  padding: 0;
+
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 54px;
+}
+
+.features__list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.features__item {
+  position: relative;
+  margin-right: 40px;
+  margin-bottom: 72px;
+  padding: 100px 52px 0;
+  width: 256px;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: calc(50% - 40px);
+    width: 80px;
+    height: 80px;
+
+    border: 1px solid rgba(22, 175, 224, 0.25);
+    border-radius: 50%;
+  }
+
+  &--medicine::before {
+    background-image: url(../img/001-medicine.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  &--siren::before {
+    background-image: url(../img/002-siren.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  &--health::before {
+    background-image: url(../img/003-health.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  &--smartwatch::before {
+    background-image: url(../img/004-smartwatch.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  &--facebook::before {
+    background-image: url(../img/005-facebook.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  &--conversation::before {
+    background-image: url(../img/006-conversation.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  &:nth-child(3n) {
+    margin-right: 0;
+  }
+}
