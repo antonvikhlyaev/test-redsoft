@@ -1,0 +1,47 @@
+{
+  "name": "test-redsoft",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Тестовое задание на позицию верстальщика в компанию Redsoft",
+  "author": "Anton Vikhlyaev",
+  "main": "gulpfile.js",
+  "scripts": {
+    "editorconfig": "editorconfig-cli",
+    "stylelint": "stylelint 'source/sass/**/*.scss' --syntax scss",
+    "test": "npm run editorconfig && npm run stylelint",
+    "build": "gulp build",
+    "start": "npm run build && gulp serve",
+    "images": "gulp images",
+    "webp": "gulp webp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/antonvikhlyaev/test-redsoft.git"
+  },
+  "browserslist": [
+    "defaults"
+  ],
+  "devDependencies": {
+    "autoprefixer": "^9.6.1",
+    "browser-sync": "^2.26.7",
+    "del": "^5.0.0",
+    "editorconfig": "^0.15.3",
+    "editorconfig-cli": "^0.3.0",
+    "gulp": "^4.0.2",
+    "gulp-csso": "^3.0.1",
+    "gulp-imagemin": "^6.0.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-posthtml": "^3.0.4",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-svgstore": "^7.0.1",
+    "gulp-webp": "^4.0.1",
+    "posthtml-include": "^1.2.0",
+    "stylelint": "^10.1.0",
+    "stylelint-config-htmlacademy": "^0.1.4"
+  },
+  "dependencies": {
+    "lodash": "^4.17.11"
+  }
+}
