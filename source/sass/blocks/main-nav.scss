@@ -109,4 +109,11 @@
   margin-top: 20px;
 
   color: #ffffff;
+
+  outline: none;
+
+  &:focus,
+  &:hover {
+    color: #e70067;
+  }
 }
