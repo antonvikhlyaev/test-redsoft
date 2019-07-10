@@ -19,6 +19,8 @@
   & a {
     color: #e70067;
 
+    outline: none;
+
     &:focus,
     &:hover {
       border-bottom: 1px solid #e70067;
