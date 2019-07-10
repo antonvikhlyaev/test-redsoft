@@ -55,6 +55,8 @@
 
   color: #ffffff;
 
+  outline: none;
+
   &:focus::before,
   &:hover::before {
     content: "";
