@@ -33,7 +33,7 @@
 
 .slider__button {
   margin-bottom: 211px;
-  padding: 16px 29px;
+  padding: 18px 31px;
 
   font-weight: 500;
   font-size: 16.02px;
@@ -81,6 +81,10 @@
     height: 1px;
     background-color: #5489c3;
     transform: translateY(-50%);
+  }
+
+  &:hover:not(&--current)::before {
+    background-color: #e70067;
   }
 
   &:last-child {

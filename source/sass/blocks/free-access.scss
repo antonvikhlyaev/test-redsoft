@@ -12,8 +12,8 @@
   margin-bottom: 39px;
   padding: 0;
 
-  font-size: 36px;
   font-weight: 500;
+  font-size: 36px;
   line-height: 54px;
 }
 
@@ -22,8 +22,8 @@
   margin-bottom: 53px;
   padding: 0;
 
-  font-size: 24px;
   font-weight: 500;
+  font-size: 24px;
   line-height: 36px;
 }
 
@@ -40,28 +40,20 @@
   padding: 0;
 }
 
-.free-access__button {
-  padding: 20px 35px;
-}
-
 .free-access__input {
+  box-sizing: border-box;
+  width: 360px;
   margin: 0;
   padding: 0;
   padding: 22px 15px;
 
-  width: 360px;
-
-  font-size: 14px;
   font-weight: 300;
+  font-size: 14px;
   line-height: normal;
 
   background-color: transparent;
-
   border: 1px solid #4f699b;
   border-radius: 30px;
-
-  box-sizing: border-box;
-
   outline: none;
 
   &:focus,
@@ -74,3 +66,6 @@
   }
 }
 
+.free-access__button {
+  padding: 22px 37px;
+}
