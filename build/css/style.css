@@ -112,7 +112,8 @@ img {
   position: relative;
   padding-top: 10px;
   padding-bottom: 10px;
-  color: #ffffff; }
+  color: #ffffff;
+  outline: none; }
   .main-nav__link:focus::before, .main-nav__link:hover::before {
     content: "";
     position: absolute;
