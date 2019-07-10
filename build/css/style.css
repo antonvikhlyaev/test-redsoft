@@ -149,7 +149,10 @@ img {
 
 .page-footer .main-nav__phone {
   margin-top: 20px;
-  color: #ffffff; }
+  color: #ffffff;
+  outline: none; }
+  .page-footer .main-nav__phone:focus, .page-footer .main-nav__phone:hover {
+    color: #e70067; }
 
 .button {
   display: inline-block;
@@ -537,6 +540,7 @@ img {
   line-height: 21px;
   text-align: center; }
   .page-footer__copyright a {
-    color: #e70067; }
+    color: #e70067;
+    outline: none; }
     .page-footer__copyright a:focus, .page-footer__copyright a:hover {
       border-bottom: 1px solid #e70067; }
