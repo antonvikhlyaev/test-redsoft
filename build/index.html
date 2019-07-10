@@ -5,8 +5,214 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Тестовое задание в Redsoft</title>
+
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/style.min.css" rel="stylesheet">
 </head>
 <body>
-  Приветик!
+  <header class="page-header">
+    <div class="page-header__container container">
+      <nav class="main-nav">
+        <a class="main-nav__logo">
+          <img class="main-nav__logo-img" src="img/logo.svg" width="200" height="21" alt="Логотип программы «Мое здоровье»">
+          <p class="main-nav__logo-text">Программа доступного лечения</p>
+        </a>
+        <ul class="main-nav__list">
+          <li class="main-nav__item">
+            <a class="main-nav__link" href="#">О сервисе</a>
+          </li>
+          <li class="main-nav__item">
+            <a class="main-nav__link" href="#">Функции</a>
+          </li>
+          <li class="main-nav__item">
+            <a class="main-nav__link" href="#">Возможности</a>
+          </li>
+          <li class="main-nav__item">
+            <a class="main-nav__link" href="#">Специалистам</a>
+          </li>
+        </ul>
+        <a class="main-nav__button button button--transparent" href="#">Оставить заявку</a>
+      </nav>
+      <section class="slider">
+        <ul class="slider__list">
+          <li class="slider__item">
+            <p class="slider__text">Расширяем возможности предоставления качественных медицинских услуг</p>
+            <h1 class="slider__title">«Дневник здоровья» – новый сервис для самоконтроля показателей состояния здоровья,
+              разработанный для участников программы «Мое здоровье».</h1>
+              <a class="slider__button button" href="#">Узнать больше</a>
+          </li>
+        </ul>
+        <div class="slider__controls">
+          <button class="slider__toggle slider__toggle--current">
+            <span class="visually-hidden">Первый слайд</span>
+          </button>
+          <button class="slider__toggle">
+            <span class="visually-hidden">Второй слайд</span>
+          </button>
+        </div>
+      </section>
+    </div>
+  </header>
+  <main class="page-content">
+    <section class="about">
+      <div class="about__container container">
+        <div class="about__wrapper">
+          <h2 class="about__title">Что такое «Дневник здоровья»?</h2>
+          <p class="about__text">Дневник пациента — это удобный онлайн-сервис:</p>
+          <ul class="about__list">
+            <li class="about__item">
+              Вносите результаты измерений вручную или с помощью
+              интегрированных приборов
+            </li>
+            <li class="about__item">
+              Ведите персональную медицинскую карту с историей
+              ваших измерений
+            </li>
+            <li class="about__item">
+              Делитесь результатами измерений со специалистами
+              для&nbsp;повышения эффективности лечения
+            </li>
+            <li class="about__item">
+              Получайте рекомендации, созданные специально для вас
+            </li>
+          </ul>
+          <a class="about__button button button--filled" href="#">Оставить заявку</a>
+        </div>
+      </div>
+    </section>
+    <section class="features">
+      <div class="features__container container">
+        <h2 class="features__title">Функции приложения</h2>
+        <ul class="features__list">
+          <li class="features__item features__item--medicine">
+            Планирование графика
+            приема&nbsp;лекарств
+          </li>
+          <li class="features__item features__item--siren">
+            Уведомление врача
+            об&nbsp;исполнении назначений
+          </li>
+          <li class="features__item features__item--health">
+            Ведение дневника
+            самочувствия
+          </li>
+          <li class="features__item features__item--smartwatch">
+            Удаленное предоставление
+            измерений врачу
+          </li>
+          <li class="features__item features__item--conversation">
+            Общение с врачами
+            через&nbsp;встроенный мессенджер
+          </li>
+          <li class="features__item features__item--facebook">
+            Получение уведомлений
+            для&nbsp;выполнения назначений
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="capability">
+      <div class="capability__container container">
+        <h2 class="capability__title">Ведите персональный дневник мониторинга здоровья</h2>
+        <ol class="capability__list">
+          <li class="capability__item">
+            <span class="capability__number">1</span>
+            <h3 class="capability__name">Хранение данных</h3>
+            <p class="capability__text">
+              Контролируйте и следите за динамикой изменения показателей вашего здоровья. Вносите результаты измерений медицинских
+              показателей вручную или с помощью интегрированных приборов, храните историю измерений и отслеживайте динамику состояния здоровья.
+            </p>
+          </li>
+          <li class="capability__item">
+            <span class="capability__number">2</span>
+            <h3 class="capability__name">Сообшение информации врачу</h3>
+            <p class="capability__text">
+              Позвольте специалисту дистанционно следить за вашим здоровьем.
+              Будьте на связи со специалистом &ndash; отправляйте информацию о своем самочувствии, обменивайтесь сообщениями и получайте
+              рекомендации по вашему здоровью и лечению.
+            </p>
+          </li>
+          <li class="capability__item">
+            <span class="capability__number">3</span>
+            <h3 class="capability__name">Напоминание о важном</h3>
+            <p class="capability__text">
+              Получайте рекомендации, созданные специально для вас.
+              Система,&nbsp;персонально настроенная под ваши требования, автоматически напомнит о необходимости выполнить рекомендации
+              медицинского специалиста: принять препарат или выполнить измерения.
+            </p>
+          </li>
+        </ol>
+      </div>
+    </section>
+    <section class="for-specialists">
+      <div class="for-specialists__container container">
+        <div class="for-specialists__wrapper">
+          <h2 class="for-specialists__title">Специалистам</h2>
+          <ul class="for-specialists__list">
+            <li class="for-specialists__item">
+              Дистанционный контроль состояния здоровья ваших пациентов.
+            </li>
+            <li class="for-specialists__item">
+              Наблюдение за динамикой изменения основных
+              медицинских&nbsp;показателей.
+            </li>
+            <li class="for-specialists__item">
+              Наличие алгоритмов автоматического анализа
+              поступающей&nbsp;информации.
+            </li>
+            <li class="for-specialists__item">
+              Индивидуальная система уведомлений об изменении
+              состояния&nbsp;каждого пациента.
+            </li>
+            <li class="for-specialists__item">
+              Дополнительный сервис коммуникации, позволяющий активно
+              вовлекать&nbsp;пациента в процесс профилактики, лечения и реабилитации.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="free-access">
+      <div class="free-access__container container">
+        <h2 class="free-access__title">Получите бесплатный доступ к «Дневнику здоровья»</h2>
+        <p class="free-access__text">Оставьте свою электронную почту<br>
+        и вы узнаете о запуске данного сервиса первым!</p>
+        <form class="free-access__form" action="#" method="POST">
+          <p class="free-access__item">
+            <input class="free-access__input" id="free-access__email" type="text" name="email" placeholder="Ваш E-mail">
+            <label class="visually-hidden" for="free-access__email">Введите ваш email</label>
+          </p>
+          <button class="free-access__button button button--filled" type="submit">Отправить</button>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer class="page-footer">
+    <div class="page-footer__container container">
+      <nav class="page-footer__nav main-nav">
+        <a class="main-nav__logo">
+          <img class="main-nav__logo-img" src="img/logo.svg" width="160" height="17" alt="Логотип программы «Мое здоровье»">
+        </a>
+        <ul class="main-nav__list">
+          <li class="main-nav__item">
+            <a class="main-nav__link" href="#">О сервисе</a>
+          </li>
+          <li class="main-nav__item">
+            <a class="main-nav__link" href="#">Функции</a>
+          </li>
+          <li class="main-nav__item">
+            <a class="main-nav__link" href="#">Возможности</a>
+          </li>
+          <li class="main-nav__item">
+            <a class="main-nav__link" href="#">Специалистам</a>
+          </li>
+        </ul>
+        <a class="main-nav__phone" href="tel:88005004549">88005004549</a>
+      </nav>
+      <p class="page-footer__copyright">
+        Разработка сайта <a href="https://redsoft.ru/">Redsoft</a>
+      </p>
+    </div>
+  </footer>
 </body>
 </html>
