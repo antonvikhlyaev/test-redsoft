@@ -1,6 +1,39 @@
 .capability {
   padding-top: 155px;
   padding-bottom: 121px;
+  overflow: hidden;
+}
+
+.capability__container {
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    right: -364px;
+    bottom: -648px;
+
+    width: 1920px;
+    height: 1862px;
+
+    background-image: url(../img/capability__lines.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    right: -91px;
+    bottom: -3px;
+
+    width: 611px;
+    height: 608px;
+
+    background-image: url(../img/mobiles.png);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
 }
 
 .capability__title {
@@ -8,26 +41,25 @@
   margin-bottom: 89px;
   padding: 0;
 
-  font-size: 36px;
   font-weight: 500;
+  font-size: 36px;
   line-height: 54px;
   text-align: center;
-
   color: #31496b;
 }
 
 .capability__list {
+  width: 572px;
   margin: 0;
   padding: 0;
   padding-left: 60px;
-
-  width: 572px;
 
   list-style: none;
 }
 
 .capability__item {
   position: relative;
+
   margin-bottom: 79px;
 }
 
@@ -36,8 +68,8 @@
   top: 5px;
   left: -63px;
 
-  font-size: 60px;
   font-weight: 500;
+  font-size: 60px;
   line-height: 54px;
   color: rgba(35, 179, 226, 0.4);
 
@@ -46,11 +78,13 @@
     position: absolute;
     top: -38px;
     left: -47px;
+
     width: 102px;
     height: 125px;
+
     background-image: url(../img/capability-number.svg);
-    background-position: center;
     background-repeat: no-repeat;
+    background-position: center;
   }
 }
 
@@ -59,8 +93,8 @@
   margin-bottom: 9px;
   padding: 0;
 
-  font-size: 24px;
   font-weight: 500;
+  font-size: 24px;
   line-height: 36px;
 }
 

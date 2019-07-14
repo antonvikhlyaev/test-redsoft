@@ -1,11 +1,33 @@
 .page-header {
+  position: relative;
+  z-index: 2;
+
   margin: 0;
   padding: 0;
   padding-top: 15px;
+  overflow: hidden;
 
   color: #ffffff;
 
-  background-image: url('../img/slider__bg.png');
+  background-image: url("../img/slider__bg.png");
   background-repeat: no-repeat;
   background-position: top center;
+}
+
+.page-header__container {
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: -251px;
+    left: -387px;
+
+    width: 1920px;
+    height: 2041px;
+
+    background-image: url(../img/page-header__lines.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
 }

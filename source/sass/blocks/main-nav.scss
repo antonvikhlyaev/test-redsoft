@@ -60,7 +60,6 @@
   &:focus::before,
   &:hover::before {
     content: "";
-
     position: absolute;
     bottom: 1px;
     left: 50%;
@@ -70,8 +69,11 @@
 
     background-color: #fafbfd;
     border-radius: 50%;
-
     transform: translateX(-50%);
+  }
+
+  &:active::before {
+    background-color: #e70067;
   }
 }
 

@@ -1,5 +1,6 @@
 .page-footer {
   padding-top: 43px;
+
   background-color: #39649d;
 }
 
@@ -8,13 +9,11 @@
   padding: 0;
   padding-bottom: 34px;
 
-  color: #e3e7f2;
-
-  font-size: 14px;
   font-weight: 400;
+  font-size: 14px;
   line-height: 21px;
-
   text-align: center;
+  color: #e3e7f2;
 
   & a {
     color: #e70067;

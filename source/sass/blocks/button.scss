@@ -1,4 +1,6 @@
 .button {
+  z-index: 1;
+
   display: inline-block;
   box-sizing: border-box;
 
@@ -11,7 +13,6 @@
   background-color: #e70067;
   border: none;
   border-radius: 50px;
-
   outline: none;
 
   &:focus,
@@ -30,9 +31,10 @@
 
   &:focus,
   &:hover {
+    color: #17519d;
+
     background-color: #ffffff;
     border-color: #ffffff;
-    color: #17519d;
   }
 
   &:active {
@@ -41,5 +43,3 @@
     box-shadow: none;
   }
 }
-
-
