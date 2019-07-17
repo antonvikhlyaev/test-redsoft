@@ -211,6 +211,9 @@ img {
   padding: 0;
   list-style: none; }
 
+.slider__item {
+  display: none; }
+
 .slider__text {
   margin: 0;
   margin-bottom: 35px;
@@ -274,8 +277,14 @@ img {
     background-color: #e70067; }
   .slider__toggle:last-child {
     margin-right: 0; }
-  .slider__toggle--current::before {
-    background-color: #ffffff; }
+
+#slide-1:checked ~ .slider__list .slider__item--1,
+#slide-2:checked ~ .slider__list .slider__item--2 {
+  display: block; }
+
+#slide-1:checked ~ .slider__controls .slider__toggle[for="slide-1"]::before,
+#slide-2:checked ~ .slider__controls .slider__toggle[for="slide-2"]::before {
+  background-color: #ffffff; }
 
 .about {
   position: relative;
