@@ -8,20 +8,15 @@
 
 .for-specialists__container {
   position: relative;
+}
 
-  &::before {
-    content: "";
-    position: absolute;
-    top: -166px;
-    left: -360px;
+.for-specialists__img {
+  position: absolute;
+  top: -182px;
+  left: -360px;
 
-    width: 905px;
-    height: 640px;
-
-    background-image: url(../img/tablet.png);
-    background-repeat: no-repeat;
-    background-position: center;
-  }
+  width: 905px;
+  height: 640px;
 }
 
 .for-specialists__wrapper {

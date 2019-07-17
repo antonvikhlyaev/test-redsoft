@@ -23,20 +23,15 @@
     background-repeat: no-repeat;
     background-position: center;
   }
+}
 
-  &::after {
-    content: "";
-    position: absolute;
-    top: -84px;
-    left: 142px;
+.about__img {
+  position: absolute;
+  top: -100px;
+  left: 142px;
 
-    width: 335px;
-    height: 652px;
-
-    background-image: url(../img/mobile.png);
-    background-repeat: no-repeat;
-    background-position: center;
-  }
+  width: 335px;
+  height: 652px;
 }
 
 .about__wrapper {

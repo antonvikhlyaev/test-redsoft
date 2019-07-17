@@ -20,20 +20,15 @@
     background-repeat: no-repeat;
     background-position: center;
   }
+}
 
-  &::after {
-    content: "";
-    position: absolute;
-    right: -91px;
-    bottom: -3px;
+.capability__img {
+  position: absolute;
+  right: -91px;
+  bottom: -19px;
 
-    width: 611px;
-    height: 608px;
-
-    background-image: url(../img/mobiles.png);
-    background-repeat: no-repeat;
-    background-position: center;
-  }
+  width: 611px;
+  height: 608px;
 }
 
 .capability__title {
