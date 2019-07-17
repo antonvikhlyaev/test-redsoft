@@ -305,16 +305,13 @@ img {
     background-image: url(../img/about__lines.svg);
     background-repeat: no-repeat;
     background-position: center; }
-  .about__container::after {
-    content: "";
-    position: absolute;
-    top: -84px;
-    left: 142px;
-    width: 335px;
-    height: 652px;
-    background-image: url(../img/mobile.png);
-    background-repeat: no-repeat;
-    background-position: center; }
+
+.about__img {
+  position: absolute;
+  top: -100px;
+  left: 142px;
+  width: 335px;
+  height: 652px; }
 
 .about__wrapper {
   position: relative;
@@ -463,16 +460,13 @@ img {
     background-image: url(../img/capability__lines.svg);
     background-repeat: no-repeat;
     background-position: center; }
-  .capability__container::after {
-    content: "";
-    position: absolute;
-    right: -91px;
-    bottom: -3px;
-    width: 611px;
-    height: 608px;
-    background-image: url(../img/mobiles.png);
-    background-repeat: no-repeat;
-    background-position: center; }
+
+.capability__img {
+  position: absolute;
+  right: -91px;
+  bottom: -19px;
+  width: 611px;
+  height: 608px; }
 
 .capability__title {
   margin: 0;
@@ -534,16 +528,13 @@ img {
 
 .for-specialists__container {
   position: relative; }
-  .for-specialists__container::before {
-    content: "";
-    position: absolute;
-    top: -166px;
-    left: -360px;
-    width: 905px;
-    height: 640px;
-    background-image: url(../img/tablet.png);
-    background-repeat: no-repeat;
-    background-position: center; }
+
+.for-specialists__img {
+  position: absolute;
+  top: -182px;
+  left: -360px;
+  width: 905px;
+  height: 640px; }
 
 .for-specialists__wrapper {
   margin-left: 560px;
